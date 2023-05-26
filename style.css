@@ -1,0 +1,41 @@
+:root {
+    --outer-space: purple
+    --: purple,
+    --: pink
+    --light green;
+}
+    
+::selection {
+    background-color: var (--bright-pin);
+    color: var(--outer-space);
+}
+
+html {
+    font-size: 60.0%
+}
+
+body {
+    font-family: cursive, sans-serif;
+    font-size: rem;
+    line-height: height 1.5;
+    color: #3d8e1d;
+    background-color: var(--outer-space);
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: .0625rem;
+    color: var(--heliotrope);
+    line-height: 1.1;
+}
+
+h1 {
+    front-size: 40px (4 * 10px) 
+}
+
+h2 {
+    front-size: 35px (3.5 * 10px)
+}
+h3 
+
