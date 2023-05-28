@@ -1,41 +1,47 @@
-:root {
-    --outer-space: purple
-    --: purple,
-    --: pink
-    --light green;
-}
-    
-::selection {
-    background-color: var (--bright-pin);
-    color: var(--outer-space);
+/*color scheem sourced from http://khroma.co/genrator/ */
+
+img {
+    border-radius: 50%;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
-html {
-    font-size: 60.0%
-}
+body
+    header
+        h1 { 
+            font-size: xx-large;
+            text-align: center;
+            color: rgb(69, 15, 120);
+        }
 
-body {
-    font-family: cursive, sans-serif;
-    font-size: rem;
-    line-height: height 1.5;
-    color: #3d8e1d;
-    background-color: var(--outer-space);
-}
+        h2  {
+            font-size: large;
+            text-align: center; 
+            color:darkcyan; 
+        }
 
-h1,
-h2,
-h3 {
-    margin-bottom: .0625rem;
-    color: var(--heliotrope);
-    line-height: 1.1;
-}
+        h3 {
+            font-style: italic;
+            text-align: center;
+            color: hotpink;
+        }
 
-h1 {
-    front-size: 40px (4 * 10px) 
-}
+    header
 
-h2 {
-    front-size: 35px (3.5 * 10px)
-}
-h3 
-
+    main 
+        h1 {
+            font-style:normal;
+            font-size:large;
+            text-align:center;
+            color:blueviolet;
+        }    
+                
+        h2 {
+            font-style: Oblique;
+            font-size: large;
+            text-align: center;
+            color:hotpink
+        }
+    main
+body
