@@ -1,47 +1,53 @@
 /*color scheem sourced from http://khroma.co/genrator/ */
-
-img {
-    border-radius: 50%;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-}
-
-body
-    header
-        h1 { 
-            font-size: xx-large;
-            text-align: center;
-            color: rgb(69, 15, 120);
-        }
+    
+    body
+        header
+            h1 {
+                font-size: xx-large;
+                text-align: center;
+                color: hotpink;
+            }
+    
 
         h2  {
             font-size: large;
+            font-family: italic;
             text-align: center; 
             color:darkcyan; 
-        }
-
+            }
+    
         h3 {
+            font-size: large;
             font-style: italic;
             text-align: center;
-            color: hotpink;
-        }
-
-    header
-
-    main 
-        h1 {
-            font-style:normal;
-            font-size:large;
-            text-align:center;
-            color:blueviolet;
-        }    
+            color: hotpink;           
+    }
                 
-        h2 {
-            font-style: Oblique;
-            font-size: large;
+    
+    main         
+        nav p {
+            font-family: Arial;
+            color: blue;
+            font-size: 75px;            
             text-align: center;
-            color:hotpink
         }
-    main
-body
+        nav p div a {
+            text-decoration: center;
+            font-family: Arial;
+            color: blue;
+            font-size: 25px
+        }
+    .img my-flower {
+            width: 800px;
+            height: 300px;
+            background-image: (img/my-flower);  
+            background-repeat: no repeat
+        }
+    
+       
+     
+
+            
+        
+   
+   
