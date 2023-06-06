@@ -1,7 +1,11 @@
 /*color scheem sourced from http://khroma.co/genrator/ */
     
     body
-        header
+    * {
+        margin-right:0;
+        padding: 0;
+    }
+    header
             h1 {
                 font-size: xx-large;
                 text-align: center;
@@ -19,33 +23,29 @@
             font-size: large;
             font-style: italic;
             text-align: center;
-            color: hotpink;           
-    }
-                
-        main         
-            nav p {
-                font-family: Arial;
-                 color: blue;
-                font-size: 75px;            
-                text-align: center;
+            color: hotpink;  
+        }
+
+        h4 {
+            font-family: Arial;
+            color: blue;
+            font-size: 75px;            
+            text-align: center;
+            }   
+                    
+    main  {       
+        font-family: Arial;
+        color: blue;
+        font-size: 55 px;
+        text-align: center;
+        margin: 50;
             }
 
-            nav p div  {
-                font-family: Arial;
-                color: blue;
-                font-size: 50px;
-                margin-left: 25%;
-        }  
-
-    .img flower {
-            width: 25px;
-            height: 75px;
-            background-image: (img/flower);  
-            background-repeat: no repeat
+            .wrapping {
+            Margin: 0 auto;
+            width: 800px;
         }
-    
-       
-     
+
 
             
         
